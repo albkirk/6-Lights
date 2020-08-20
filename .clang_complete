@@ -1,0 +1,70 @@
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\tools\sdk\include
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\tools\sdk\libc\xtensa-lx106-elf\include
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\cores\esp8266
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\tools\sdk\lwip2\include
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\variants\nodemcu
+-IC:\Users\naalbuquerque\Google Drive\2019\ESP8266_KickStart\lib\core
+-IC:\Users\naalbuquerque\Google Drive\2019\ESP8266_KickStart\lib\hweb
+-IC:\Users\naalbuquerque\Google Drive\2019\ESP8266_KickStart\lib\hwifi
+-IC:\Users\naalbuquerque\Google Drive\2019\ESP8266_KickStart\lib\project
+-IC:\Users\naalbuquerque\.platformio\lib\Adafruit Unified Sensor_ID31
+-IC:\Users\naalbuquerque\.platformio\lib\ArduinoJson_ID64\src
+-IC:\Users\naalbuquerque\.platformio\lib\DHT sensor library_ID19
+-IC:\Users\naalbuquerque\.platformio\lib\PubSubClient_ID89\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ArduinoOTA
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\EEPROM
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266HTTPClient\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266WebServer\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266WiFi\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266mDNS\src
+-IC:\Users\naalbuquerque\.platformio\lib\Adafruit GFX Library_ID13
+-IC:\Users\naalbuquerque\.platformio\lib\Adafruit NeoPixel_ID28
+-IC:\Users\naalbuquerque\.platformio\lib\Adafruit ST7735 and ST7789 Library_ID12
+-IC:\Users\naalbuquerque\.platformio\lib\DFRobotDFPlayerMini_ID1308
+-IC:\Users\naalbuquerque\.platformio\lib\EspSoftwareSerial_ID168
+-IC:\Users\naalbuquerque\.platformio\lib\IRremoteESP8266_ID1089\src
+-IC:\Users\naalbuquerque\.platformio\lib\NeoPixelBus_ID547\src
+-IC:\Users\naalbuquerque\.platformio\lib\SmartLeds_ID1740\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\DNSServer\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266AVRISP\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266HTTPUpdateServer\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266LLMNR
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266NetBIOS
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266SSDP
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266WiFiMesh\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\ESP8266httpUpdate\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\Ethernet\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\GDBStub\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\Hash\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\SD\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\SPI
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\SPISlave\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\Servo\src
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\SoftwareSerial
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\TFT_Touch_Shield_V2
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\Ticker
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\Wire
+-IC:\Users\naalbuquerque\.platformio\packages\framework-arduinoespressif8266\libraries\esp8266\src
+-IC:\Users\naalbuquerque\.platformio\packages\toolchain-xtensa\xtensa-lx106-elf\include
+-IC:\Users\naalbuquerque\.platformio\packages\toolchain-xtensa\xtensa-lx106-elf\include\c++\4.8.2
+-IC:\Users\naalbuquerque\.platformio\packages\toolchain-xtensa\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf
+-IC:\Users\naalbuquerque\.platformio\packages\toolchain-xtensa\lib\gcc\xtensa-lx106-elf\4.8.2\include
+-IC:\Users\naalbuquerque\.platformio\packages\toolchain-xtensa\lib\gcc\xtensa-lx106-elf\4.8.2\include-fixed
+-IC:\Users\naalbuquerque\.platformio\packages\tool-unity
+-IC:\Users\naalbuquerque\Google Drive\2019\ESP8266_KickStart\include
+-IC:\Users\naalbuquerque\Google Drive\2019\ESP8266_KickStart\src
+-DPLATFORMIO=30604
+-DESP8266
+-DARDUINO_ARCH_ESP8266
+-DARDUINO_ESP8266_ESP12
+-DF_CPU=80000000L
+-D__ets__
+-DICACHE_FLASH
+-DARDUINO=10805
+-DARDUINO_BOARD="PLATFORMIO_ESP12E"
+-DFLASHMODE_DIO
+-DLWIP_OPEN_SRC
+-DTCP_MSS=536
+-DLWIP_FEATURES=1
+-DLWIP_IPV6=0
+-DVTABLES_IN_FLASH
