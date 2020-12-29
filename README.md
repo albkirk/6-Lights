@@ -1,12 +1,16 @@
-# ESP8266 12F Project "Kick Start" Template
+# 3.5'' Display to presenting  the "Sound Pressure Level" 
 
 
 This is a personal project to create a starting point for all my ESP projects.
 It is written in C++ under PlatformIO IDE (integrated on ATOM or Visual Studio Code platforms).
-I'm coding my own variant of this popular project, with some inspiration and lessons (code Snippets) from some well know projects like:
+I'm coding my own variant of this popular project:
 
-- ESPURNA: [GitHub Espurna Page](https://github.com/SensorsIot/Espurna-Framework)
-- TASMOTA: [GitHub Tasmota Page](https://github.com/arendst/Sonoff-Tasmota)
+- [GitHub ESP32-8266-Audio-Spectrum-Display Page](https://github.com/G6EJD/ESP32-8266-Audio-Spectrum-Display)
+- [GitHub ESP32 Fast Fourier Transform of Audio & WS2812B mapping Page](https://github.com/debsahu/ESP32_FFT_Audio_LEDs)
+
+The main goal is to explore the FFT algorithms.
+
+Interesting analog version of this project : (https://www.uk-dave.com/projects/electronics/sound-to-light/)
 
 ## Supported Features:
 	1. Project should run locally, even when LAN (WiFi) newtork is down (it seems obvious, but ...)

@@ -1,14 +1,14 @@
 // HARWARE & SOFTWARE Version
 #define BRANDName "AlBros_Team"                         // Hardware brand name
-#define MODELName "GenBox_A"                            // Hardware model name
-#define SWVer "11.02"                                   // Major.Minor Software version (use String 01.00 - 99.99 format !)
+#define MODELName "6-Lights"                            // Hardware model name
+#define SWVer "01.01"                                   // Major.Minor Software version (use String 01.00 - 99.99 format !)
 
 // Power Source & Battery Level
-bool BattPowered = true;                                // Is the device battery powered?
+bool BattPowered = false;                               // Is the device battery powered?
 #define Batt_L_Thrs 15                                  // Battery level threshold [0%-100%] (before slepping forever).
 
 // GPIO to Function Assignment
-#define Using_ADC false                                 // will this device use the ADC? (if not it will measure the internal voltage)
+#define Using_ADC true                                  // will this device use the ADC? (if not it will measure the internal voltage)
 #define LED_esp 2                                       // ESP Led is connected to GPIO 2. -1 means NOT used!
 #define DHTTYPE 2                                       // use 1 for "DHT11", 2 for "DHT22", or 3 for "AM2320" to select the DHT Model
 #define DHTPIN -1                                       // GPIO connected to DHT Data PIN. -1 means NO DHT used!
@@ -20,8 +20,8 @@ bool BattPowered = true;                                // Is the device battery
 void config_defaults() {
     Serial.println("Setting config Default values");
 
-    strcpy(config.DeviceName, "ESP_Generic");             // Device Name
-    strcpy(config.Location, "MainRoom");                  // Device Location
+    strcpy(config.DeviceName, "6-Lights");                // Device Name
+    strcpy(config.Location, "Casa");                      // Device Location
     strcpy(config.ClientID, "001001");                    // Client ID (used on MQTT)
     config.ONTime = 10;                                   // 0-255 seconds (Byte range)
     config.SLEEPTime = 0;                                 // 0-255 minutes (Byte range)
