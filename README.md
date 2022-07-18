@@ -1,4 +1,4 @@
-# 3.5'' Display to presenting  the "Sound Pressure Level" 
+# 6 Light - Disco effect " 
 
 
 This is a personal project to create a starting point for all my ESP projects.

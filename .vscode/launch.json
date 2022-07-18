@@ -1,5 +1,5 @@
 // AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
-
+//
 // PIO Unified Debugger
 //
 // Documentation: https://docs.platformio.org/page/plus/debugging.html
@@ -15,11 +15,11 @@
             "executable": "c:/Users/naalbuquerque/Google Drive/2020/IoT/2020 6-Lights/.pio/build/esp12e/firmware.elf",
             "projectEnvName": "esp12e",
             "toolchainBinDir": "C:/Users/naalbuquerque/.platformio/packages/toolchain-xtensa/bin",
+            "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
-            },
-            "internalConsoleOptions": "openOnSessionStart"
+            }
         },
         {
             "type": "platformio-debug",
@@ -29,6 +29,16 @@
             "projectEnvName": "esp12e",
             "toolchainBinDir": "C:/Users/naalbuquerque/.platformio/packages/toolchain-xtensa/bin",
             "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "c:/Users/naalbuquerque/Google Drive/2020/IoT/2020 6-Lights/.pio/build/esp12e/firmware.elf",
+            "projectEnvName": "esp12e",
+            "toolchainBinDir": "C:/Users/naalbuquerque/.platformio/packages/toolchain-xtensa/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "loadMode": "manual"
         }
     ]
 }
